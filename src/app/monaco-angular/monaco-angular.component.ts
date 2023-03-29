@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MonacoAngularComponent {
   code: any = '';
-  codeEditorOptions = {theme: 'vs-dark',language: 'json',automaticLayout: true
-  }
+  codeEditorOptions = {theme: 'vs-dark',language: 'json'}
 
   constructor() { }
 

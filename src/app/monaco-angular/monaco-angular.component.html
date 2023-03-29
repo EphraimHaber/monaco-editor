@@ -1,3 +1,5 @@
-<ngx-monaco-editor [options]="codeEditorOptions" [(ngModel)]="code"></ngx-monaco-editor>
-<div class="editor-container" #editorElement></div>
-<button (click)="setCode(code)">Set Code</button>
+<div class="editor-container">
+    <ngx-monaco-editor style="height: 800px;" [options]="codeEditorOptions" [(ngModel)]="code"></ngx-monaco-editor>
+    <button (click)="setCode(code)">Set Code</button>
+  </div>
+  
