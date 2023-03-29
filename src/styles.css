@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.error-decoration-error {
+    border-bottom: 2px solid red;
+}
+
+.error-decoration-warn {
+    border-bottom: 2px solid yellow;
+}

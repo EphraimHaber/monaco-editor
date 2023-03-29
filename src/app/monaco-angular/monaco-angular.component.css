@@ -1,10 +1,31 @@
 .editor-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    
-  }
-  
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 80%;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+
+.error-decoration-error {
+  border-bottom: 2px solid red;
+}
+
+.error-decoration-warn {
+  border-bottom: 2px solid yellow;
+}
+
+button {
+  margin-left: 10px;
+}
