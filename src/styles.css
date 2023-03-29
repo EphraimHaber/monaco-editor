@@ -6,3 +6,10 @@
 .error-decoration-warn {
     border-bottom: 2px solid yellow;
 }
+
+.error-decoration-info {
+    border-bottom: 2px solid blue;
+}
+html {
+    background-color: beige;
+}

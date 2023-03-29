@@ -1,7 +1,9 @@
 <div class="editor-container">
     <ngx-monaco-editor style="height: 800px;" [options]="codeEditorOptions" [(ngModel)]="schema"></ngx-monaco-editor>
-    <button (click)="checkSchema(schema)">Check Schema</button>
-    <input type="file" (change)="readSchemaFromFile($event.target)">
+    <div class="controls-container">
+        <input class="schema-upload-button" type="file" (change)="readSchemaFromFile($event.target)">
+        <button class="check-schema-button" (click)="checkSchema(schema)">Check Schema</button>
+    </div>
 </div>
 
 <!-- <div id="container"></div> -->
