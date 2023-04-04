@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MonacoAngularComponent } from './monaco-angular/monaco-angular.component';
 // import {MonacoEditorModule} from 'ngx-monaco-editor';
 // import { FormsModule } from '@angular/forms';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 import { MonacoEditorModule, MONACO_PATH } from '@materia-ui/ngx-monaco-editor';
 
